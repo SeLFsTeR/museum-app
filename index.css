@@ -20,5 +20,13 @@ font-family: 'Permanent Marker', cursive;
 }
 .artObject {
   border:5px solid #021a40;
-  
+  max-width: 80%;
+  max-height: 20rem;
+  margin: 1rem;
+}
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
